@@ -22,15 +22,42 @@
             </div>
             <div id="content">
                 <nav id="contentNav">
-                <p class="textNav">Inicio</p>
-                <p class="textNav">Contato</p>
-                <img id="logoNav" src="img/logobanner.png" alt="">
-                <p class="textNav">Portifolio</p>
-                <p class="textNav">Sobre-me</p></nav>
-            </div>
+                    <a href="#inicioinfo">
+                        <p class="textNav" onclick="backcontato()">Inicio</p>
+                    </a>
+                    <p class="textNav" onclick="aftercontato()">Contato</p>
+                    <img id="logoNav" src="img/logobanner.png" alt="">
+                    <p class="textNav" onclick="afterport()">Portifolio</p>
+                    <p class="textNav" onclick="backport()">Sobre-me</p>
+                </nav>
+
+                <div id="info">
+                    <div id="inicio">
+                        <div id="inicioinfo">
+                                 <h1 id="textinicio">Por que devo ter precença online</h1>
+                                <div class="cardinicio">
+                                    <div><img src="img/compra.png" alt=""><p class="text2inicio">Alavanque suas vendas</p></div>
+                                    <div><img src="img/dinheiro.png" alt=""><p class="text2inicio">Aumente Sua renda</p></div>
+                                    <div><img src="img/fama.png" alt=""><p class="text2inicio">Melhore a sua reputação</p></div>
+                                    <div><img src="img/produto.png" alt=""><p class="text2inicio">Receba mais pedidos</p></div>
+                                </div>
+                                <div class="cardinicio">
+                                    <div><img src="img/conexao.png" alt=""><p class="text2inicio">Conecte-se melhor com seus clientes</p></div>
+                                    <div><img src="img/Globo.png" alt=""><p class="text2inicio">Aumente sua presença global</p></div>
+                                    <div><img src="img/info.png" alt=""><p class="text2inicio">Comunique melhor sobre seu produto</p></div>
+                                    <div><img src="img/comunica.png" alt=""><p class="text2inicio">Comunique-se melhor sobre seu negócio</p></div>
+                                </div>
+                            </div>
+                        
+                        <div id="contatoinfo" class="opacity"></div>
+                        <div id="portfolioinfo" class="opacity"></div>
+                        <div id="sobreinfo" class="opacity"></div>
+                    </div>
+                </div>
 
         </section>
     </main>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
