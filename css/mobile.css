@@ -1,0 +1,9 @@
+@media (max-width: 767px) {
+    body {
+      overflow-x: hidden;
+    }
+    #info{
+        background-color: aqua
+    }
+  }
+  
