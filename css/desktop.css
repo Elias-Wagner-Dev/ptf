@@ -23,18 +23,6 @@
 
 }
 
-#content {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 90%;
-    border-top-left-radius: 45px;
-    border-top-right-radius: 45px;
-    width: 100%;
-    height: 720px;
-    background-color: #ffffff;
-}
 
 #textBanner {
 
@@ -54,6 +42,19 @@
     height: 20px;
 }
 
+#content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 90%;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    width: 100%;
+    height: 2300px;
+    background-color: #ffffff;
+}
+
 #contentNav {
     display: flex;
     justify-content: space-around;
@@ -62,7 +63,12 @@
     width: 100%;
     box-shadow: 0px 0px 4px 0px black;
 }
-.textNav{
+
+#contentNav a {
+    color: #000000;
+}
+
+.textNav {
     cursor: pointer;
 }
 
@@ -73,116 +79,109 @@
 
 #info {
     position: relative;
-    margin-top: 5%;
+    margin-top: 2%;
     width: 90%;
-    height: 580px;
-    box-shadow: 0px 0px 4px 0px;
+    height: 2200px;
+    box-shadow: 0px 0px 10px 0px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+
     border-radius: 45px;
+    background-color: #000000;
 
 }
 
-#info div {
-    display: flex;
-    align-items: center;
+#info h1 {
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: open sans;
 
 }
 
 #inicio {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    height: 100%;
-    border-radius: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.butao {
-    width: 60px;
-    height: 60px;
-    border-radius: 100px;
-    background-color: #000000;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-.opacity {
-    opacity: 0;
-}
-#inicioinfo{
-    position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    transition: 1s;
-    background-color: #000000;
-    width: 100%;
-    height: 100%;
-    border-radius: 45px;
-}
-
-.cardinicio{
     width: 95%;
-    height: 450px;
+    height: 600px;
+
+
+
+}
+
+.cardinicio {
+    margin-top: 50px;
+    width: 100%;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #000000;
-    border-radius: 40px;
+
 }
 
-.cardinicio div{
-    width: 260px;
-    height: 240px;
-    background-color: #252525;
+.cardinicio div {
+    width: 250px;
+    height: 260px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    background-color: #252525;
     border-radius: 45px;
 }
-#textinicio{
-    color: #ffffff;
-    margin: 10px;
-}
-.text2inicio{
+
+.text2inicio {
     color: #ffffff;
     font-size: 15px;
 }
-#contatoinfo{
-    background-color: blue;
-    transition: 1s;
-    position: absolute;
-    width: 100%;
-    height: 100%;
+
+#sobre {
+    width: 95%;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px #ffffff;
     border-radius: 45px;
-   
+    margin-top: 20px;
+}
+
+#sobre img {
+    width: 400px;
+    height: 400px;
+    margin-left: 10%;
+}
+
+#sobre div {
+    margin-top: 35px;
+    width: 50%;
+    height: 100%;
+}
+
+#sobre p {
+    color: #ffffff;
+}
+
+#portfolio {
+    margin-top: 20px;
+    width: 95%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     
 }
 
-
-#portfolioinfo{
-    background-color: aquamarine;
-    transition: 1s;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 45px;
-   
+.cardpotfolio{
+    width: 250px;
+    height: 350px;
+    background-color: #ffffff;
 }
 
-#sobreinfo{
-    background-color: yellow;
-    transition: 1s;
-    position: absolute;
-    width: 100%;
-    height: 100%;
+#contato{
+    margin-top: 20px;
+    width: 95%;
+    height: 400px;
     border-radius: 45px;
+    box-shadow: 0px 0px 10px 2px #ffffff;
 }
