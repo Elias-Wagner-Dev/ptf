@@ -147,8 +147,8 @@
 }
 
 #sobre img {
-    width: 400px;
-    height: 400px;
+    width: 80%;
+    height: 80%;
     margin-left: 10%;
 }
 
@@ -177,7 +177,9 @@
     height: 350px;
     background-color: #ffffff;
 }
-
+.textsobre{
+    font-size: 1.1vw;
+}
 #contato{
     margin-top: 20px;
     width: 95%;
