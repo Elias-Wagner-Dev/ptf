@@ -1,7 +1,19 @@
 @media (max-width: 767px) {
+   
   body {
     overflow-x: hidden;
   }
+ #imgBanner{
+ width: 844px;
+ height: 390px;
+
+  
+ }
+ #principal {
+  width: 100%;
+  position: relative;
+  height: 3900px;
+}
 
   #contentNav img {
     display: none;
