@@ -62,7 +62,8 @@
 
   #sobre div:nth-child(1) {
     margin-top: 35px;
-    width: 60%;
+    justify-content: center;
+    align-items: center;
     height: 40%;
 
   }
