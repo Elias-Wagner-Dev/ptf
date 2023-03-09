@@ -61,25 +61,25 @@
 
   #sobre img {
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+    left: auto;
+    top: auto;
     width: 200px;
     height: 200px;
   }
 
   #sobre div:nth-child(1) {
-    margin-top: 35px;
+    width: 230px;
+    height: 230px;
     position: relative;
     align-items: center;
     
 
   }
   #sobre div:nth-child(2){
-      width: 90%;
+      width: 95%;
   }
   .textsobre{
-    font-size: 0.86rem;
+    font-size: 0.84rem;
   }
 
 
