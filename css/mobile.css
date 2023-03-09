@@ -39,6 +39,10 @@
     justify-content: space-around;
   }
 
+  .cardinicio:nth-child(2){
+    display: none;
+  }
+
   .cardinicio div {
     width: 200px;
     height: 220px;
@@ -70,7 +74,9 @@
   #sobre div:nth-child(2){
       width: 90%;
   }
-
+  .textsobre{
+    font-size: 2.5vh;
+  }
 
 
 }
