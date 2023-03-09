@@ -1,9 +1,75 @@
 @media (max-width: 767px) {
-    body {
-      overflow-x: hidden;
-    }
-    #info{
-        background-color: aqua
-    }
+  body {
+    overflow-x: hidden;
   }
-  
+
+  #contentNav img {
+    display: none;
+  }
+  #content h1{
+    font-size: 18px;
+  }
+  #textBanner {
+
+    font-size: 32px;
+
+  }
+
+  #textBanner2 {
+    font-size: 15px;
+  }
+
+  #content {
+    height: 3300px;
+
+  }
+
+  #info {
+    height: 3200px
+  }
+
+  #inicio {
+    height: 1000px;
+    flex-direction: row;
+
+  }
+
+  .cardinicio {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .cardinicio div {
+    width: 200px;
+    height: 220px;
+  }
+
+  .text2inicio {
+
+    font-size: 11px;
+  }
+
+  #sobre {
+    flex-direction: column;
+    height: 1000px;
+
+  }
+
+  #sobre img {
+    width: 200px;
+    height: 200px;
+  }
+
+  #sobre div:nth-child(1) {
+    margin-top: 35px;
+    width: 60%;
+    height: 40%;
+
+  }
+  #sobre div:nth-child(2){
+      width: 90%;
+  }
+
+
+
+}
